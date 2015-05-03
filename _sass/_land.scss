@@ -5,6 +5,17 @@ body {
   background-size: cover;
   background-color: #464646;
   overflow-x: hidden;
+  font-family: 'Muli', sans-serif;
+}
+
+.site-header {
+  a.site-title, a.menu-icon, a.page-link {
+    color: whitesmoke;
+  }
+}
+
+.page-content {
+  padding: 0px;
 }
 
 .home, .home-two {
@@ -13,7 +24,18 @@ body {
 }
 
 .home {
-  background-color: rgba(0,0,0,0.3)
+  background-color: rgba(0,0,0,0.3);
+
+  .landing-text {
+    position: relative; top: 50%;
+    transform: (translateY(-50%));
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 0.7em;
+    font-size: 3em;
+    color: whitesmoke;
+    font-weight: bold;
+  }
+
 }
 
 .home-two {
@@ -36,3 +58,10 @@ body {
     color:#3b5998
   }
 }
+
+
+/* .about */
+.land {
+  height: 100vh; width: 100vw;
+}
+/* /.about */
