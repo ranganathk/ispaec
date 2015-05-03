@@ -1,0 +1,38 @@
+body {
+  background: url('/assets/images/95.jpg');
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #464646;
+  overflow-x: hidden;
+}
+
+.home, .home-two {
+  height: 100vh;
+  width: 100vw;
+}
+
+.home {
+  background-color: rgba(0,0,0,0.3)
+}
+
+.home-two {
+  background-color: #FBFBF1;
+}
+
+.site-footer {
+  text-align: center;
+  background-color: #555555;
+  font-size: 1.2em;
+  color: white;
+  font-family: 'Muli', sans-serif;
+
+  .fa-twitter {
+    color: #00aced;
+
+    font-size: 1.5em;
+  }
+  .fa-facebook{
+    color:#3b5998
+  }
+}
