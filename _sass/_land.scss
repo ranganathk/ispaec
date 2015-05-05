@@ -13,7 +13,7 @@ body {
 }
 
 .home {
-  background-color: rgba(0,0,0,0.3)
+  background-color: rgba(0,0,0,0);
 }
 
 .home-two {
@@ -22,7 +22,7 @@ body {
 
 .site-footer {
   text-align: center;
-  background-color: #555555;
+  background-color: #AC92EC;
   font-size: 1.2em;
   color: white;
   font-family: 'Muli', sans-serif;
@@ -34,5 +34,10 @@ body {
   }
   .fa-facebook{
     color:#3b5998
+  }
+  span{
+    color: red;
+    font-weight:bold;
+    font-size:56px;
   }
 }
